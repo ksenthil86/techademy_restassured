@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-28T23:25:57 IST" name="RestAssured TestSuite" finished-at="2023-08-28T23:26:00 IST" duration-ms="3041">
+  <suite started-at="2023-08-31T20:15:11 IST" name="Default suite" finished-at="2023-08-31T20:15:14 IST" duration-ms="3009">
     <groups>
     </groups>
-    <test started-at="2023-08-28T23:25:57 IST" name="Post Request Test" finished-at="2023-08-28T23:26:00 IST" duration-ms="3041">
+    <test started-at="2023-08-31T20:15:11 IST" name="Default test" finished-at="2023-08-31T20:15:14 IST" duration-ms="3009">
       <class name="restassuredproject.ReqResTests">
-        <test-method signature="post_test()[pri:0, instance:restassuredproject.ReqResTests@5acf93bb]" started-at="2023-08-28T23:25:57 IST" name="post_test" finished-at="2023-08-28T23:26:00 IST" duration-ms="2987" status="PASS">
+        <test-method signature="post_test()[pri:0, instance:restassuredproject.ReqResTests@5acf93bb]" started-at="2023-08-31T20:15:11 IST" name="post_test" finished-at="2023-08-31T20:15:14 IST" duration-ms="2953" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- post_test -->
       </class> <!-- restassuredproject.ReqResTests -->
-    </test> <!-- Post Request Test -->
-  </suite> <!-- RestAssured TestSuite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

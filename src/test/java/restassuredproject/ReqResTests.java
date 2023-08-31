@@ -21,9 +21,9 @@ public class ReqResTests {
 				.body(jsonBody)
 				.post("https://reqres.in/api/users")
 				.andReturn();
-		Assert.assertEquals(response.statusCode(),201);
-		Assert.assertEquals(response.jsonPath().get("name").toString(),"API Demo");
-		Assert.assertEquals(response.jsonPath().get("job").toString(),"API Tester");
+		Assert.assertEquals(response.statusCode(),201,"Passed - Status Code is as expected");
+		Assert.assertEquals(response.jsonPath().get("name").toString(),"API Demo","Passed - Name value is as expected");
+		Assert.assertEquals(response.jsonPath().get("job").toString(),"API Tester","Passed - Job value is as expected");
 				
 	}
 	
