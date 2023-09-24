@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="restassuredproject.ReqResTests">
+      <class name="restassuredproject.ReqRes_Post_Tests">
         <methods>
-          <include name="post_test"/>
+          <include name="TC01_positive_test"/>
         </methods>
-      </class> <!-- restassuredproject.ReqResTests -->
+      </class> <!-- restassuredproject.ReqRes_Post_Tests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
